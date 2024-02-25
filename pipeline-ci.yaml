@@ -30,7 +30,7 @@ jobs:
 
 ## Sekcja Artifacts i NPM
   - task: npmAuthenticate@0
-     inputs:
+    inputs:
       workingFile: .npmrc
       customEndpoint:
 
